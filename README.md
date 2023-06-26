@@ -12,7 +12,14 @@ Video of initial demo:
 
 ## Requirements
 
-I recommend you use docker for this model, it will make everything easier for you. Minimum specs system with 32GB of ram. Tested on system with AMD Epyc CPU & python 3.10.
+I recommend you use docker for this model, it will make everything easier for you. Minimum specs system with 32GB of ram. Recommend to use `python 3.10`.
+
+## Tested working on
+
+Will post some numbers for these two later.
+
+- AMD Epyc 7003 series CPU
+- AMD Ryzen 5950x CPU
 
 ## Setup
 
