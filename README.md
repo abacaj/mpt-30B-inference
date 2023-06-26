@@ -6,7 +6,7 @@ Run inference on the latest MPT-30B model using your CPU. This inference code us
 
 ## Requirements
 
-I recommend you use docker for this model, it will make everything easier for you. I recommend a system with 32GB of ram. Tested on AMD Epyc CPU, Python 3.10.
+I recommend you use docker for this model, it will make everything easier for you. Minimum specs system with 32GB of ram otherwise limit the `context_length` of model. Tested on AMD Epyc CPU, Python 3.10.
 
 ## Setup
 
