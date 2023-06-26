@@ -1,4 +1,3 @@
-import sys
 import os
 from dataclasses import dataclass, asdict
 from ctransformers import AutoModelForCausalLM, AutoConfig
