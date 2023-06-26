@@ -32,7 +32,7 @@ def generate(llm, system_prompt, user_prompt):
         seed=42,
         reset=True,  # reset history (cache)
         stream=True,  # streaming per word/token
-        threads=os.cpu_count() / 2,  # adjust for your CPU
+        threads=int(os.cpu_count() / 2),  # adjust for your CPU
         stop=["<|im_end|>", "|<"],
     )
 
