@@ -2,11 +2,11 @@ import os
 from huggingface_hub import hf_hub_download
 
 
-def download_mpt_quant(destination_folder):
+def download_mpt_quant(destination_folder: str, repo_id: str, model_filename: str):
     local_path = os.path.relpath(destination_folder)
     return hf_hub_download(
-        repo_id="TheBloke/mpt-30B-chat-GGML",
-        filename="mpt-30b-chat.ggmlv0.q4_1.bin",
+        repo_id=repo_id,
+        filename=model_filename,
         cache_dir=local_path,
     )
 
@@ -14,5 +14,7 @@ def download_mpt_quant(destination_folder):
 if __name__ == "__main__":
     """full url: https://huggingface.co/TheBloke/mpt-30B-chat-GGML/blob/main/mpt-30b-chat.ggmlv0.q4_1.bin"""
 
-    destination_folder = "models"
-    download_mpt_quant(destination_folder)
+    repo_id = "TheBloke/mpt-30B-chat-GGML"
+    model_filename = "mpt-30b-chat.ggmlv0.q4_1.bin"
+    destination_folder = "modelz"
+    download_mpt_quant(destination_folder, repo_id, model_filename)
