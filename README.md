@@ -4,7 +4,7 @@ Run inference on the latest MPT-30B model using your CPU. This inference code us
 
 Turn style with history on latest commit:
 
-[Inference Chat](https://user-images.githubusercontent.com/7272343/248859199-28a82f3d-ee54-44e4-b22d-ca348ac667e3.png)
+![Inference Chat](https://user-images.githubusercontent.com/7272343/248859199-28a82f3d-ee54-44e4-b22d-ca348ac667e3.png)
 
 Video of initial demo:
 
