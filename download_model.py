@@ -3,7 +3,7 @@ from huggingface_hub import hf_hub_download
 
 
 def download_mpt_quant(destination_folder: str, repo_id: str, model_filename: str):
-    local_path = os.path.relpath(destination_folder)
+    local_path = os.path.abspath(destination_folder)
     return hf_hub_download(
         repo_id=repo_id,
         filename=model_filename,

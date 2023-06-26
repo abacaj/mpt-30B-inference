@@ -51,7 +51,7 @@ def generate(
 if __name__ == "__main__":
     config = AutoConfig.from_pretrained("mosaicml/mpt-30b-chat", context_length=8192)
     llm = AutoModelForCausalLM.from_pretrained(
-        "models/mpt-30b-chat.ggmlv0.q4_1.bin",
+        os.path.abspath("models/mpt-30b-chat.ggmlv0.q4_1.bin"),
         model_type="mpt",
         config=config,
     )
