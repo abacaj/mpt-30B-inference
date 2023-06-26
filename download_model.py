@@ -8,7 +8,7 @@ def download_mpt_quant(destination_folder: str, repo_id: str, model_filename: st
         repo_id=repo_id,
         filename=model_filename,
         local_dir=local_path,
-        local_dir_use_symlinks=False
+        local_dir_use_symlinks=True
     )
 
 
