@@ -8,7 +8,7 @@ I recommend a system with 32GB of ram.
 
 ## Requirements
 
-I recommend you use docker for this model, it will make everything easier for you. Tested on cuda-11.8.0 with AMD Epyc CPU.
+I recommend you use docker for this model, it will make everything easier for you. Tested on AMD Epyc CPU.
 
 ## Setup
 
