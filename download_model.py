@@ -16,5 +16,5 @@ if __name__ == "__main__":
 
     repo_id = "TheBloke/mpt-30B-chat-GGML"
     model_filename = "mpt-30b-chat.ggmlv0.q4_1.bin"
-    destination_folder = "modelz"
+    destination_folder = "models"
     download_mpt_quant(destination_folder, repo_id, model_filename)
