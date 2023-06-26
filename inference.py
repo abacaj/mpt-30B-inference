@@ -44,7 +44,6 @@ if __name__ == "__main__":
         config=config,
     )
 
-    print(config)
     system_prompt = "A conversation between a user and an LLM-based AI assistant. The assistant gives helpful and honest answers."
 
     user_prompts = [
