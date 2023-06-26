@@ -2,7 +2,7 @@
 
 Run inference on the latest MPT-30B model using your CPU.
 
-![Inference Demo]([media//transformers/mpt-30B-inference/media/inference-demo.mp4inference-demo.mp4](https://github.com/abacaj/mpt-30B-inference/assets/7272343/486fc9b1-8216-43cc-93c3-781677235502))
+[Inference Demo](https://github.com/abacaj/mpt-30B-inference/assets/7272343/486fc9b1-8216-43cc-93c3-781677235502)
 
 ## Requirements
 
