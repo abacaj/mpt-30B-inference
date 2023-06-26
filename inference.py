@@ -1,3 +1,4 @@
+import os
 from ctransformers import AutoModelForCausalLM, AutoConfig
 
 
@@ -31,7 +32,7 @@ def generate(llm, system_prompt, user_prompt):
         seed=42,
         reset=True,  # reset history (cache)
         stream=True,  # streaming per word/token
-        threads=24,  # adjust for your CPU
+        threads=os.cpu_count() / 2,  # adjust for your CPU
         stop=["<|im_end|>", "|<"],
     )
 
